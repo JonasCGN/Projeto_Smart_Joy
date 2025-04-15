@@ -104,17 +104,19 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: windows-zip
+          path: .
 
       - name: Baixar APK Android
         uses: actions/download-artifact@v4
         with:
           name: android-apk
+          path: .
 
       - name: Criar release
         uses: softprops/action-gh-release@v1
         with:
           files: |
             JoyServer-Windows.zip
-            controle_smart_joy/build/app/outputs/flutter-apk/app-release.apk
+            app-release.apk
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}

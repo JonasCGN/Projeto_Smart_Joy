@@ -49,26 +49,15 @@ jobs:
         run: dir build/windows/x64/runner/Release
         working-directory: smart_joy
       
-      # - name: Empacotar build Windows em ZIP
-      #   run: |
-      #     $buildPath = "build/windows/x64/runner/Release"
-      #     if (Test-Path $buildPath) {
-      #       Compress-Archive -Path "$buildPath\*" -DestinationPath "JoyServer-Windows.zip"
-      #     } else {
-      #       Write-Host "A pasta de build não existe."
-      #     }
-      #   shell: pwsh
-      #   working-directory: smart_joy
-      
       - name: Criar Instalador .exe com Inno Setup
         run: iscc installer.iss
         working-directory: smart_joy
 
-      - name: Upload ZIP do Windows
+      - name: Upload Instalador Windows
         uses: actions/upload-artifact@v4
         with:
-          name: windows-zip
-          path: smart_joy/JoyServer-Windows.zip
+          name: windows-installer
+          path: smart_joy/build/SmartJoyServerInstaller.exe
 
   build-android:
     runs-on: ubuntu-latest
@@ -101,8 +90,6 @@ jobs:
           name: android-apk
           path: controle_smart_joy/build/app/outputs/flutter-apk/app-release.apk
 
-  
-
   create-release:
     needs: [build-windows, build-android]
     runs-on: ubuntu-latest
@@ -126,7 +113,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            JoyServer-Windows.zip
+            SmartJoyServerInstaller.exe
             app-release.apk
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}

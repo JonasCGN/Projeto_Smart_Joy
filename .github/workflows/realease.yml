@@ -17,6 +17,10 @@ jobs:
           choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK.18363"
         shell: cmd
 
+      - name: Instalar Inno Setup
+        run: choco install innosetup
+        shell: cmd
+
       - name: Instalar Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -45,15 +49,19 @@ jobs:
         run: dir build/windows/x64/runner/Release
         working-directory: smart_joy
       
-      - name: Empacotar build Windows em ZIP
-        run: |
-          $buildPath = "build/windows/x64/runner/Release"
-          if (Test-Path $buildPath) {
-            Compress-Archive -Path "$buildPath\*" -DestinationPath "JoyServer-Windows.zip"
-          } else {
-            Write-Host "A pasta de build não existe."
-          }
-        shell: pwsh
+      # - name: Empacotar build Windows em ZIP
+      #   run: |
+      #     $buildPath = "build/windows/x64/runner/Release"
+      #     if (Test-Path $buildPath) {
+      #       Compress-Archive -Path "$buildPath\*" -DestinationPath "JoyServer-Windows.zip"
+      #     } else {
+      #       Write-Host "A pasta de build não existe."
+      #     }
+      #   shell: pwsh
+      #   working-directory: smart_joy
+      
+      - name: Criar Instalador .exe com Inno Setup
+        run: iscc installer.iss
         working-directory: smart_joy
 
       - name: Upload ZIP do Windows
@@ -92,6 +100,8 @@ jobs:
         with:
           name: android-apk
           path: controle_smart_joy/build/app/outputs/flutter-apk/app-release.apk
+
+  
 
   create-release:
     needs: [build-windows, build-android]

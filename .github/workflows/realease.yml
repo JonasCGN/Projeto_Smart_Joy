@@ -32,7 +32,6 @@ jobs:
           echo API_KEY=${{ secrets.ENV_API_KEY }} >> .env
         working-directory: smart_joy
 
-
       - name: Compilar DLL (smart_joy)
         run: build.bat
         shell: cmd
@@ -42,7 +41,7 @@ jobs:
         run: flutter build windows
         working-directory: smart_joy
 
-        - name: Verificar arquivos de build do Windows
+      - name: Verificar arquivos de build do Windows
         run: dir build/windows/x64/runner/Release
         working-directory: smart_joy
       

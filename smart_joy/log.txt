@@ -1,0 +1,159 @@
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!
+[LOG] Tentando carregar DLL de: C:\Users\jonas\Documents\Programacao\Flutter\Projeto_Smart_Joy\smart_joy\build\windows\x64\runner\Debug\smart_joy.exe/../bluetooth_server.dll
+[LOG] DLL existe? SIM
+[LOG] DLL carregada com sucesso!

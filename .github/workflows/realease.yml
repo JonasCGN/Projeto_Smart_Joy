@@ -1,0 +1,121 @@
+name: Flutter Release (Joy Server & Controle)
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar Visual Studio Build Tools
+        run: |
+          choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows10SDK.18363"
+        shell: cmd
+
+      - name: Instalar Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.3'
+
+      - name: Instalar dependências (smart_joy)
+        run: flutter pub get
+        working-directory: smart_joy
+
+      - name: Criar arquivo .env (smart_joy)
+        run: |
+          echo API_PORT=${{ secrets.ENV_API_PORT }} >> .env
+          echo API_KEY=${{ secrets.ENV_API_KEY }} >> .env
+        working-directory: smart_joy
+
+
+      - name: Compilar DLL (smart_joy)
+        run: build.bat
+        shell: cmd
+        working-directory: smart_joy\native\bluetooth
+
+      - name: Build Flutter Windows (smart_joy)
+        run: flutter build windows
+        working-directory: smart_joy
+
+        - name: Verificar arquivos de build do Windows
+        run: dir build/windows/x64/runner/Release
+        working-directory: smart_joy
+      
+      - name: Empacotar build Windows em ZIP
+        run: |
+          $buildPath = "build/windows/x64/runner/Release"
+          if (Test-Path $buildPath) {
+            Compress-Archive -Path "$buildPath\*" -DestinationPath "JoyServer-Windows.zip"
+          } else {
+            Write-Host "A pasta de build não existe."
+          }
+        shell: pwsh
+        working-directory: smart_joy
+
+      - name: Upload ZIP do Windows
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-zip
+          path: JoyServer-Windows.zip
+
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Instalar Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.3'
+
+      - name: Instalar dependências (controle_smart_joy)
+        run: flutter pub get
+        working-directory: controle_smart_joy
+
+      - name: Criar arquivo .env (controle_smart_joy)
+        run: |
+          echo API_PORT=${{ secrets.ENV_API_PORT }} >> .env
+          echo API_KEY=${{ secrets.ENV_API_KEY }} >> .env
+        working-directory: controle_smart_joy
+
+      - name: Build APK
+        run: flutter build apk --release
+        working-directory: controle_smart_joy
+
+      - name: Upload APK Android
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apk
+          path: controle_smart_joy/build/app/outputs/flutter-apk/app-release.apk
+
+  create-release:
+    needs: [build-windows, build-android]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Baixar ZIP do Windows
+        uses: actions/download-artifact@v4
+        with:
+          name: windows-zip
+
+      - name: Baixar APK Android
+        uses: actions/download-artifact@v4
+        with:
+          name: android-apk
+
+      - name: Criar release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            JoyServer-Windows.zip
+            controle_smart_joy/build/app/outputs/flutter-apk/app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

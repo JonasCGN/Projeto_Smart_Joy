@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1' // Certifique-se de usar a versão correta
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android' // se estiver usando Kotlin
+
+ext.kotlin_version = '1.8.22'
+
+android {
+    namespace 'com.jonascgn_company.bluetooth_serial' // 👈 ADICIONE ESSA LINHA
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+    buildToolsVersion = '33.0.0' // ou a versão mais recente disponível
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

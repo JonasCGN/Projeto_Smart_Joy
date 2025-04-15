@@ -50,7 +50,7 @@ jobs:
         working-directory: smart_joy
       
       - name: Criar Instalador .exe com Inno Setup
-        run: iscc installer.iss
+        run: iscc smart_joy_installer.iss
         working-directory: smart_joy
 
       - name: Upload Instalador Windows

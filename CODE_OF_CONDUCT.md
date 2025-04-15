@@ -24,7 +24,7 @@ Comprometemo-nos a tornar a participação neste projeto uma experiência livre 
 
 Violações deste código de conduta podem ser relatadas à equipe de manutenção no e-mail:
 
-📧 **jonas.suporte@exemplo.com** (substitua pelo seu real)
+📧 **jonasbo66@gmail.com** (substitua pelo seu real)
 
 Todos os relatos serão analisados e investigados com o devido cuidado.
 

@@ -60,7 +60,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-zip
-          path: JoyServer-Windows.zip
+          path: smart_joy/JoyServer-Windows.zip
 
   build-android:
     runs-on: ubuntu-latest

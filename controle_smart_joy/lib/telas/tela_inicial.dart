@@ -33,7 +33,7 @@ class _TelaInicialState extends State<TelaInicial> {
 				}
 			});
 		});
-		// detetarIPAutomaticamente();
+		detetarIPAutomaticamente();
 	}
 
 
